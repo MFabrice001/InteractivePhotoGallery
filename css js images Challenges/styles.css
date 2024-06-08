@@ -45,5 +45,17 @@ body {
 @media (min-width: 768px) {
   .fullsize {
       display: block;
+      .thumbnail img {
+        width: 70px;
+        height: 70px;
+    }    
   }
+
+  @media (max-width: 768px) {
+    .thumbnail img {
+        width: 70px;
+        height: 70px;
+    }
+}
+
 }
